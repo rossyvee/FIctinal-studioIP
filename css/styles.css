@@ -1,0 +1,19 @@
+div#section-one{
+    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-position: center;
+    height: 700px;
+    color: white;
+}
+
+div#section-one > div > h1{
+    font-size: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+div#section-one > div > h6{
+    
+    padding: 10px;
+    text-transform: uppercase;
+}
