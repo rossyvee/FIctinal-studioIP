@@ -23,4 +23,11 @@ div#section-three{
     background-image: url("/assets/backgrounds/s_image.jpg");
     background-position: center;
     color: white;
+    height: 450px;
+}
+
+img.img-portfolio{
+    width: 100%;
+    margin: auto;
+    height: 100%;
 }
