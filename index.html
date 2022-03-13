@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
-    <link type="text/css" rel="stylesheet"  href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="container-fluid">
 
@@ -26,7 +28,7 @@
             </div>
         </div>
         <!-- end section one -->
-        
+
         <!-- start section-two -->
         <div class="row" id="section-two">
 
@@ -34,16 +36,18 @@
 
                 <h2>ABOUT US</h2>
                 <p>
-                When you work with us , you are part of the team of committed collaborators. All aspects of our software development process are integrated, interactive 
+                    When you work with us , you are part of the team of committed collaborators. All aspects of our
+                    software development process are integrated, interactive
                 </p>
                 <p>
-                    and agile 
+                    and agile
                 </p>
                 <p>
                     Our approach unifies design, development and product management to create exceptional products.
                 </p>
                 <p>
-                    We start each project by understanding your business goals, the user's needs and the project requirements
+                    We start each project by understanding your business goals, the user's needs and the project
+                    requirements
                 </p>
                 <p>
                     Then we help translate them into effective and elegant solutions
@@ -59,7 +63,8 @@
             <div class="col-md-12 col-sm-12 text-center">
                 <h2 class="pt-5">SERVICES</h2>
                 <p class="mt-4">
-                    Before we sign a contaract or write a line of code our team will spend the necessary time needed to understand your product vision
+                    Before we sign a contaract or write a line of code our team will spend the necessary time needed to
+                    understand your product vision
                 </p>
                 <p class="mt-4">
                     The outcome of this scoping session is a proposal or high-level statement of work.
@@ -91,7 +96,7 @@
                 </div>
             </div>
         </div>
-           <!--end section-four-->
+        <!--end section-four-->
 
         <!--start section-five-->
         <div class="row  pt-5 pb-5" id="section-five">
@@ -100,15 +105,15 @@
                 <div class="p-3 col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work4.jpg" alt="">
                 </div>
-                
+
                 <div class="p-3 col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work3.jpg" alt="">
                 </div>
-    
+
                 <div class="p-3 col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work2.jpg" alt="">
                 </div>
-    
+
                 <div class="p-3 col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work1.jpg" alt="">
                 </div>
@@ -118,23 +123,29 @@
                 <div class="p-3 col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work5.jpg" alt="">
                 </div>
-    
-    
+
+
                 <div class="col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work6.jpg" alt="">
                 </div>
-    
+
                 <div class="col-md-3 col-sm-6">
                     <img class="img-portfolio" src="assets/portfolio/work7.jpg" alt="">
                 </div>
-    
-                <div class="col-md-3 col-sm-6">
-                    <img class="img-portfolio" src="assets/portfolio/work8.jpg" alt="">
+
+
+                <!-- TODO : add bailey wonger -->
+                <div class="col-md-3 col-sm-6" style="background-image: url('assets/portfolio/work8.jpg');">
+                    <div class="w-100 p-2 m-2 mx-auto"
+                        style="border: 3px solid #fff; height: 90%;  background-color: #0000005c;">
+                        <h4 class="mt-2" style="color: #fff;font-weight: bolder;">BAILEY</h4>
+                        <h4 class="mt-2" style="color: #fff;font-weight: bolder;">WONGER</h4>
+                    </div>
                 </div>
             </div>
-        
 
-        
+
+
         </div>
         <!--end section-five-->
 
@@ -142,16 +153,82 @@
         <div class="row" id="section-six"></div>
 
 
+        <!--start section-seven-->
+        <div class="row pt-5 pb-5" id="section-seven">
+            <div class="col-md-12 col-sm-12 text-center">
+                <h2>CONTACT US</h2>
+            </div>
+            
+            <div class="col-md-10 col-sm-12 mx-auto">
+                
+                <form action="#" id="message-form" onsubmit="event.preventDefault(); saveMessage()" method="post" class="form row mx-auto"
+                    style="width: 70%;">
+
+                    <div class="col-md-12 col-sm-12" id="response-message" style="display: none;" >
+                        <div class="alert alert-success text-center">
+                            <span>Message Sent!</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-6 col-sm-12">
+                        <label for="Name" class="label mb-2">Name</label>
+                        <input type="text" onclick="$('div#response-message').hide()" placeholder="Name" id="name" name="name" class="form-control" required/>
+                    </div>
+
+                    <div class="form-group col-md-6 col-sm-12">
+                        <label for="Email" class="label mb-2">Email</label>
+                        <input type="email" onclick="$('div#response-message').hide()"  placeholder="Email" id="email" name="email" class="form-control" required/>
+                    </div>
+
+                    <div class="form-group col-md-12 col-sm-12 mt-3">
+                        <label for="Email" class="label mb-2">Message</label>
+                        <textarea name="message" onclick="$('div#response-message').hide()"  id="message"  placeholder="Your Message here" cols="30" rows="10"
+                            class="form-control message" required></textarea>
+                    </div>
+
+                    
+
+                    <div class="form-group col-md-12 col-sm-12 text-center mt-3">
+                        <button type="submit" class="btn btn-sm btn-success mt-2 text-center w-50">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+        <!-- start section eight -->
+
+        <div class="row" id="section-eight">
+            <div class="col-md-6 col-sm-12 mx-auto m-5 text-center">
+                <span>
+                    <img src="assets/social_icons/twitter.png" alt="Twitter"/>
+                </span>
+                <img src="assets/social_icons/dribble.png" alt="Dribble"/>
+                <img src="assets/social_icons/facebook.png" alt="Facebook"/>
+                <img src="assets/social_icons/g_plus.png" alt="Google Plus"/>
+                <img src="assets/social_icons/skype.png" alt="Skype"/>
+                <img src="assets/social_icons/stumble_upon.png" alt="Stumble Upon"/>
+                <img src="assets/social_icons/behance.png" alt="Behance"/>
+                <img src="assets/social_icons/pinterest.png" alt="Pinterest"/>
+                <img src="assets/social_icons/flickr.png" alt="Flicker"/>
+
+            </div>
+        </div>
+
+        <div class="row text-center" id="section-nine">
+            <p>DELANI STUDIO</p>
+            <p>
+                &copy; 2022
+            </p>
+        </div>
 
     </div>
 
     <!-- javascript -->
     <script src="scripts/jquery-3.6.0.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            // window.alert("hey")
-        })
-    </script>
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>
