@@ -1,5 +1,5 @@
-# DELANI-STUDIO
-- A Description of the Akan Names
+# Delani-Studio
+- A Description of a fictional studio
 ## Table of Content
 + [Description](#description)
 + [Installation Requirement]( Requisites)
@@ -21,7 +21,7 @@ A web application for Delani studio that shows details about who they are, servi
 * Bootstrap
 
 ## Requirements
-* Javascript console
+* A good internet connection
 ## set up instruction and installation
  clone this repository to a folder https://github.com/rossyvee/week-3-ip-delani-studio
  Extract the cloned file
