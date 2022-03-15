@@ -12,7 +12,7 @@
 ## Description
 A web application for Delani studio that shows details about who they are, services they offers, a portfolio section and a form that enables users to send their messages and concern to Delani studio.
 
-<img src="assets/delanihome.png" width="100%" height="100%">
+ ![Screenshot] <img src="assets/delanihome.png" width="100%" height="100%">
 
 ## Technology Used
 * HTML

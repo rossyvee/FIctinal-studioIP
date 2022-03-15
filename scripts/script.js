@@ -16,6 +16,17 @@ function saveMessage() {
 
     $("div#response-message").show()
 }
+function showElementOnHover(elementId){
+    $(elementId).fadeIn('slow')
+}
+
+function hideElementOnHover(elementId){
+    $(elementId).fadeOut('slow')
+}
+
+
+// initialize jquery
 $(document).ready(function () {
+    
 
 })
