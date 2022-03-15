@@ -25,7 +25,7 @@ A web application for Delani studio that shows details about who they are, servi
 ## set up instruction and installation
  clone this repository to a folder https://github.com/rossyvee/week-3-ip-delani-studio
  Extract the cloned file
- Open terminal command line then navigate to the folder of the application. cd week-2-ip
+ Open terminal command line then navigate to the folder of the application. cd week-3-ip
  open index.html on your web browser
 
 
